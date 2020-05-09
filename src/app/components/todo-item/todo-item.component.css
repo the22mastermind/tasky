@@ -1,0 +1,28 @@
+.del {
+  background: transparent;
+  color: #D70026;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.todo {
+  background: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.is-complete {
+  text-decoration: line-through;
+  color: #777777;
+}
+.item {
+  font-family: 'Quicksand', 'sans-serif';
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
