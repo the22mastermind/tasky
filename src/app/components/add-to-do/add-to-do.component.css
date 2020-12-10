@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  font-family: 'Quicksand', 'sans-serif';
+  border-bottom: 1px solid #555555;
+}
+
+.form input[type='text'] {
+  flex: 10;
+  padding: 12px 24px;
+  border: 1px solid #ffffff;
+  font-size: 18px;
+}
+
+.form input[type='submit'] {
+  flex: 2;
+}

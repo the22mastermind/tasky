@@ -1,21 +1,25 @@
 .del {
   background: transparent;
-  color: #D70026;
+  color: #cccccc;
   border: none;
   cursor: pointer;
   margin-left: 20px;
 }
 .todo {
-  background: #f4f4f4;
-  padding: 10px;
-  border-bottom: 1px solid #CCCCCC;
+  background: #ffffff;
+  padding: 24px;
 }
 .is-complete {
   text-decoration: line-through;
   color: #777777;
 }
 .item {
-  font-family: 'Quicksand', 'sans-serif';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-left-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

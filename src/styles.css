@@ -6,30 +6,35 @@
   outline: none;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', 'sans-serif';
   line-height: 1.4;
+  background-color: cadetblue;
+}
+html, body {
+  height: 100vh;
 }
 a {
   color: #333333;
   text-decoration: none;
 }
 .container {
-  margin-top: 50px;
+  padding-top: 50px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-.content {
-  width: '80%';
-}
 .btn {
   display: inline-block;
   border: none;
   background: #555555;
+  border: 1px solid #555555;
   color: #ffffff;
   padding: 7px 20px;
   cursor: pointer;
+  font-size: 18px;
+  font-family: 'Quicksand', 'sans-serif';
 }
 .btn:hover {
   background: #666666;
