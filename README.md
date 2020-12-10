@@ -5,4 +5,4 @@ You can `Create`, `Edit`, `View`, `Delete`, and `Mark as done` your tasks.
 
 
 ### Author
-Bertrand 'B' Masabo
+Bertrand 'TheMastermind'
